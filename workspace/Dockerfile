@@ -1220,6 +1220,8 @@ RUN if [ ${INSTALL_PYTHON3} = true ]; then \
   && rm get-pip.py  \
   && python3 -m pip install --upgrade --force-reinstall pip  \
   && python3 -m pip install --upgrade virtualenv \
+  && python3 -m pip install cleanco \
+  && python3 -m pip install nameparser \
 ;fi
 
 ###########################################################################
